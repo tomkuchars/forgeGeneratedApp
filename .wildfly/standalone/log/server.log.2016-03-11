@@ -1,0 +1,306 @@
+2016-03-11 09:43:45,845 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2016-03-11 09:43:46,925 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2016-03-11 09:43:47,118 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015899: WildFly 8.1.0.Final "Kenny" starting
+2016-03-11 09:43:47,131 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1250
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\tkucharski\Desktop\forge\simpleproject\.wildfly\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_45\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_45\jre
+	java.io.tmpdir = C:\Users\TKUCHA~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_45\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Program Files\Java\jdk1.8.0_45\bin";C:\Program Files\Java\jdk1.8.0_45\bin;C:\Oracle\instantclient_11_2;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\PROGRA~2\Groovy\GROOVY~1.3\bin;C:\apache-maven-3.0.5\bin;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\WinAnt\bin;C:\Users\tkucharski\AppData\Roaming\npm;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_45-b15
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_45
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.45-b02
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address.management = 127.0.0.1
+	jboss.home.dir = C:\Users\tkucharski\Desktop\forge\simpleproject\.wildfly
+	jboss.host.name = pctkucharski
+	jboss.management.http.port = 9990
+	jboss.modules.dir = C:\Users\tkucharski\Desktop\forge\simpleproject\.wildfly\modules
+	jboss.node.name = pctkucharski
+	jboss.qualified.host.name = pctkucharski
+	jboss.server.base.dir = C:\Users\tkucharski\Desktop\forge\simpleproject\.wildfly\standalone
+	jboss.server.config.dir = C:\Users\tkucharski\Desktop\forge\simpleproject\.wildfly\standalone\configuration
+	jboss.server.data.dir = C:\Users\tkucharski\Desktop\forge\simpleproject\.wildfly\standalone\data
+	jboss.server.deploy.dir = C:\Users\tkucharski\Desktop\forge\simpleproject\.wildfly\standalone\data\content
+	jboss.server.log.dir = C:\Users\tkucharski\Desktop\forge\simpleproject\.wildfly\standalone\log
+	jboss.server.name = pctkucharski
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\tkucharski\Desktop\forge\simpleproject\.wildfly\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\tkucharski\Desktop\forge\simpleproject\.wildfly/standalone/configuration/logging.properties
+	module.path = C:\Users\tkucharski\Desktop\forge\simpleproject\.wildfly\modules
+	org.jboss.boot.log.file = C:\Users\tkucharski\Desktop\forge\simpleproject\.wildfly/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 8.1
+	os.version = 6.3
+	path.separator = ;
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_45\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_45\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\tkucharski\Desktop\forge\simpleproject\.wildfly\jboss-modules.jar -mp C:\Users\tkucharski\Desktop\forge\simpleproject\.wildfly\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\tkucharski\Desktop\forge\simpleproject\.wildfly -Djboss.bind.address.management=127.0.0.1 -Djboss.management.http.port=9990
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1250
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = PL
+	user.dir = C:\Users\tkucharski\Desktop\forge\forge-distribution-2.20.2.Final\bin
+	user.home = C:\Users\tkucharski
+	user.language = pl
+	user.name = tkucharski
+	user.script = 
+	user.timezone = Europe/Belgrade
+	user.variant = 
+2016-03-11 09:43:47,133 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Xms64m -Xmx512m -XX:MaxPermSize=256m -Djava.net.preferIPv4Stack=true -Dorg.jboss.boot.log.file=C:\Users\tkucharski\Desktop\forge\simpleproject\.wildfly/standalone/log/server.log -Dlogging.configuration=file:C:\Users\tkucharski\Desktop\forge\simpleproject\.wildfly/standalone/configuration/logging.properties 
+2016-03-11 09:43:53,601 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2016-03-11 09:43:53,655 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.2.2.Final
+2016-03-11 09:43:53,670 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.2.2.Final
+2016-03-11 09:43:53,768 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2016-03-11 09:43:53,772 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2016-03-11 09:43:53,864 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2016-03-11 09:43:53,749 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2016-03-11 09:43:53,905 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2016-03-11 09:43:53,895 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.0.15.Final starting
+2016-03-11 09:43:53,757 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2016-03-11 09:43:54,008 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017502: Undertow 1.0.15.Final starting
+2016-03-11 09:43:54,344 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 4 core threads with 32 task threads based on your 2 available processors
+2016-03-11 09:43:54,404 INFO  [org.jboss.as.security] (MSC service thread 1-1) JBAS013170: Current PicketBox version=4.0.21.Beta1
+2016-03-11 09:43:54,579 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 4.0.3.Final
+2016-03-11 09:43:54,686 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-1) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.5.Final)
+2016-03-11 09:43:54,697 INFO  [org.jboss.as.naming] (MSC service thread 1-1) JBAS011802: Starting Naming Service
+2016-03-11 09:43:54,750 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2016-03-11 09:43:54,848 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-03-11 09:43:54,864 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010417: Started Driver service with driver-name = h2
+2016-03-11 09:43:55,471 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path C:\Users\tkucharski\Desktop\forge\simpleproject\.wildfly/welcome-content
+2016-03-11 09:43:55,502 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017525: Started server default-server.
+2016-03-11 09:43:55,536 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017531: Host default-host starting
+2016-03-11 09:43:55,792 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017519: Undertow HTTP listener default listening on /127.0.0.1:8080
+2016-03-11 09:43:56,082 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2016-03-11 09:43:56,101 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) JBAS015012: Started FileSystemDeploymentService for directory C:\Users\tkucharski\Desktop\forge\simpleproject\.wildfly\standalone\deployments
+2016-03-11 09:43:56,771 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.2.4.Final
+2016-03-11 09:43:57,081 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2016-03-11 09:43:57,090 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2016-03-11 09:43:57,092 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.1.0.Final "Kenny" started in 12141ms - Started 184 of 233 services (81 services are lazy, passive or on-demand)
+2016-03-11 09:44:31,412 INFO  [org.jboss.as.repository] (management-handler-thread - 2) JBAS014900: Content added at location C:\Users\tkucharski\Desktop\forge\simpleproject\.wildfly\standalone\data\content\93\83545d5cdc0e92810bfff982a31d005cae4fc7\content
+2016-03-11 09:44:31,447 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015876: Starting deployment of "simpleproject.war" (runtime-name: "simpleproject.war")
+2016-03-11 09:44:32,660 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) JBAS011401: Read persistence.xml for simpleproject-persistence-unit
+2016-03-11 09:44:32,961 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 50) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'simpleproject.war#simpleproject-persistence-unit'
+2016-03-11 09:44:32,983 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 50) HHH000204: Processing PersistenceUnitInfo [
+	name: simpleproject-persistence-unit
+	...]
+2016-03-11 09:44:33,137 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 50) HHH000412: Hibernate Core {4.3.5.Final}
+2016-03-11 09:44:33,146 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 50) HHH000206: hibernate.properties not found
+2016-03-11 09:44:33,154 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 50) HHH000021: Bytecode provider name : javassist
+2016-03-11 09:44:33,362 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016002: Processing weld deployment simpleproject.war
+2016-03-11 09:44:33,603 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 5.1.0.Final
+2016-03-11 09:44:33,734 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named SimpleEntityBean in deployment unit deployment "simpleproject.war" are as follows:
+
+	java:global/simpleproject/SimpleEntityBean!org.simpleproject.view.SimpleEntityBean
+	java:app/simpleproject/SimpleEntityBean!org.simpleproject.view.SimpleEntityBean
+	java:module/SimpleEntityBean!org.simpleproject.view.SimpleEntityBean
+	java:global/simpleproject/SimpleEntityBean
+	java:app/simpleproject/SimpleEntityBean
+	java:module/SimpleEntityBean
+
+2016-03-11 09:44:34,103 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016005: Starting Services for CDI deployment: simpleproject.war
+2016-03-11 09:44:34,166 INFO  [org.jboss.weld.Version] (MSC service thread 1-2) WELD-000900: 2.1.2 (Final)
+2016-03-11 09:44:34,303 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016008: Starting weld service for deployment simpleproject.war
+2016-03-11 09:44:34,891 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 50) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'simpleproject.war#simpleproject-persistence-unit'
+2016-03-11 09:44:34,908 WARN  [org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl] (ServerService Thread Pool -- 50) HHH000059: Defining hibernate.transaction.flush_before_completion=true ignored in HEM
+2016-03-11 09:44:35,054 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 50) HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2016-03-11 09:44:35,420 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 50) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2016-03-11 09:44:35,442 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 50) HHH000431: Unable to determine H2 database version, certain features may not work
+2016-03-11 09:44:35,620 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 50) HHH000397: Using ASTQueryTranslatorFactory
+2016-03-11 09:44:36,220 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 50) HHH000227: Running hbm2ddl schema export
+2016-03-11 09:44:36,246 INFO  [stdout] (ServerService Thread Pool -- 50) Hibernate: 
+2016-03-11 09:44:36,250 INFO  [stdout] (ServerService Thread Pool -- 50)     drop table SimpleEntity if exists
+2016-03-11 09:44:36,259 INFO  [stdout] (ServerService Thread Pool -- 50) Hibernate: 
+2016-03-11 09:44:36,262 INFO  [stdout] (ServerService Thread Pool -- 50)     drop sequence hibernate_sequence
+2016-03-11 09:44:36,268 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 50) HHH000389: Unsuccessful: drop sequence hibernate_sequence
+2016-03-11 09:44:36,277 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 50) Sekwencja "HIBERNATE_SEQUENCE" nie istnieje
+Sequence "HIBERNATE_SEQUENCE" not found; SQL statement:
+
+    drop sequence hibernate_sequence [90036-173]
+2016-03-11 09:44:36,278 INFO  [stdout] (ServerService Thread Pool -- 50) Hibernate: 
+2016-03-11 09:44:36,286 INFO  [stdout] (ServerService Thread Pool -- 50)     create table SimpleEntity (
+2016-03-11 09:44:36,286 INFO  [stdout] (ServerService Thread Pool -- 50)         id bigint not null,
+2016-03-11 09:44:36,286 INFO  [stdout] (ServerService Thread Pool -- 50)         simple varchar(255),
+2016-03-11 09:44:36,286 INFO  [stdout] (ServerService Thread Pool -- 50)         version integer,
+2016-03-11 09:44:36,286 INFO  [stdout] (ServerService Thread Pool -- 50)         primary key (id)
+2016-03-11 09:44:36,286 INFO  [stdout] (ServerService Thread Pool -- 50)     )
+2016-03-11 09:44:36,289 INFO  [stdout] (ServerService Thread Pool -- 50) Hibernate: 
+2016-03-11 09:44:36,290 INFO  [stdout] (ServerService Thread Pool -- 50)     create sequence hibernate_sequence start with 1 increment by 1
+2016-03-11 09:44:36,293 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 50) HHH000230: Schema export complete
+2016-03-11 09:44:37,718 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-1) Initializing Mojarra 2.2.6-jbossorg-4 20140501-1134 for context '/simpleproject'
+2016-03-11 09:44:38,627 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017534: Registered web context: /simpleproject
+2016-03-11 09:44:38,784 INFO  [org.jboss.as.server] (management-handler-thread - 2) JBAS018559: Deployed "simpleproject.war" (runtime-name : "simpleproject.war")
+2016-03-11 09:46:26,955 INFO  [stdout] (default task-15) Hibernate: 
+2016-03-11 09:46:26,957 INFO  [stdout] (default task-15)     select
+2016-03-11 09:46:26,957 INFO  [stdout] (default task-15)         count(simpleenti0_.id) as col_0_0_ 
+2016-03-11 09:46:26,957 INFO  [stdout] (default task-15)     from
+2016-03-11 09:46:26,957 INFO  [stdout] (default task-15)         SimpleEntity simpleenti0_ 
+2016-03-11 09:46:26,957 INFO  [stdout] (default task-15)     where
+2016-03-11 09:46:26,958 INFO  [stdout] (default task-15)         1=1
+2016-03-11 09:46:27,093 INFO  [stdout] (default task-15) Hibernate: 
+2016-03-11 09:46:27,093 INFO  [stdout] (default task-15)     select
+2016-03-11 09:46:27,093 INFO  [stdout] (default task-15)         simpleenti0_.id as id1_0_,
+2016-03-11 09:46:27,094 INFO  [stdout] (default task-15)         simpleenti0_.simple as simple2_0_,
+2016-03-11 09:46:27,094 INFO  [stdout] (default task-15)         simpleenti0_.version as version3_0_ 
+2016-03-11 09:46:27,094 INFO  [stdout] (default task-15)     from
+2016-03-11 09:46:27,094 INFO  [stdout] (default task-15)         SimpleEntity simpleenti0_ 
+2016-03-11 09:46:27,094 INFO  [stdout] (default task-15)     where
+2016-03-11 09:46:27,095 INFO  [stdout] (default task-15)         1=1 limit ?
+2016-03-11 09:47:30,821 INFO  [stdout] (default task-20) Hibernate: 
+2016-03-11 09:47:30,822 INFO  [stdout] (default task-20)     call next value for hibernate_sequence
+2016-03-11 09:47:30,875 INFO  [stdout] (default task-20) Hibernate: 
+2016-03-11 09:47:30,876 INFO  [stdout] (default task-20)     insert 
+2016-03-11 09:47:30,876 INFO  [stdout] (default task-20)     into
+2016-03-11 09:47:30,878 INFO  [stdout] (default task-20)         SimpleEntity
+2016-03-11 09:47:30,878 INFO  [stdout] (default task-20)         (simple, version, id) 
+2016-03-11 09:47:30,879 INFO  [stdout] (default task-20)     values
+2016-03-11 09:47:30,879 INFO  [stdout] (default task-20)         (?, ?, ?)
+2016-03-11 09:47:30,942 INFO  [stdout] (default task-21) Hibernate: 
+2016-03-11 09:47:30,943 INFO  [stdout] (default task-21)     select
+2016-03-11 09:47:30,943 INFO  [stdout] (default task-21)         count(simpleenti0_.id) as col_0_0_ 
+2016-03-11 09:47:30,943 INFO  [stdout] (default task-21)     from
+2016-03-11 09:47:30,944 INFO  [stdout] (default task-21)         SimpleEntity simpleenti0_ 
+2016-03-11 09:47:30,945 INFO  [stdout] (default task-21)     where
+2016-03-11 09:47:30,945 INFO  [stdout] (default task-21)         1=1
+2016-03-11 09:47:30,950 INFO  [stdout] (default task-21) Hibernate: 
+2016-03-11 09:47:30,950 INFO  [stdout] (default task-21)     select
+2016-03-11 09:47:30,950 INFO  [stdout] (default task-21)         simpleenti0_.id as id1_0_,
+2016-03-11 09:47:30,950 INFO  [stdout] (default task-21)         simpleenti0_.simple as simple2_0_,
+2016-03-11 09:47:30,950 INFO  [stdout] (default task-21)         simpleenti0_.version as version3_0_ 
+2016-03-11 09:47:30,951 INFO  [stdout] (default task-21)     from
+2016-03-11 09:47:30,951 INFO  [stdout] (default task-21)         SimpleEntity simpleenti0_ 
+2016-03-11 09:47:30,951 INFO  [stdout] (default task-21)     where
+2016-03-11 09:47:30,951 INFO  [stdout] (default task-21)         1=1 limit ?
+2016-03-11 09:48:33,073 INFO  [stdout] (default task-22) Hibernate: 
+2016-03-11 09:48:33,074 INFO  [stdout] (default task-22)     select
+2016-03-11 09:48:33,074 INFO  [stdout] (default task-22)         simpleenti0_.id as id1_0_0_,
+2016-03-11 09:48:33,075 INFO  [stdout] (default task-22)         simpleenti0_.simple as simple2_0_0_,
+2016-03-11 09:48:33,075 INFO  [stdout] (default task-22)         simpleenti0_.version as version3_0_0_ 
+2016-03-11 09:48:33,075 INFO  [stdout] (default task-22)     from
+2016-03-11 09:48:33,075 INFO  [stdout] (default task-22)         SimpleEntity simpleenti0_ 
+2016-03-11 09:48:33,075 INFO  [stdout] (default task-22)     where
+2016-03-11 09:48:33,075 INFO  [stdout] (default task-22)         simpleenti0_.id=?
+2016-03-11 09:48:37,491 INFO  [stdout] (default task-23) Hibernate: 
+2016-03-11 09:48:37,492 INFO  [stdout] (default task-23)     select
+2016-03-11 09:48:37,492 INFO  [stdout] (default task-23)         count(simpleenti0_.id) as col_0_0_ 
+2016-03-11 09:48:37,492 INFO  [stdout] (default task-23)     from
+2016-03-11 09:48:37,492 INFO  [stdout] (default task-23)         SimpleEntity simpleenti0_ 
+2016-03-11 09:48:37,492 INFO  [stdout] (default task-23)     where
+2016-03-11 09:48:37,492 INFO  [stdout] (default task-23)         1=1
+2016-03-11 09:48:37,495 INFO  [stdout] (default task-23) Hibernate: 
+2016-03-11 09:48:37,495 INFO  [stdout] (default task-23)     select
+2016-03-11 09:48:37,495 INFO  [stdout] (default task-23)         simpleenti0_.id as id1_0_,
+2016-03-11 09:48:37,495 INFO  [stdout] (default task-23)         simpleenti0_.simple as simple2_0_,
+2016-03-11 09:48:37,495 INFO  [stdout] (default task-23)         simpleenti0_.version as version3_0_ 
+2016-03-11 09:48:37,495 INFO  [stdout] (default task-23)     from
+2016-03-11 09:48:37,495 INFO  [stdout] (default task-23)         SimpleEntity simpleenti0_ 
+2016-03-11 09:48:37,496 INFO  [stdout] (default task-23)     where
+2016-03-11 09:48:37,496 INFO  [stdout] (default task-23)         1=1 limit ?
+2016-03-11 09:48:43,201 INFO  [stdout] (default task-24) Hibernate: 
+2016-03-11 09:48:43,202 INFO  [stdout] (default task-24)     select
+2016-03-11 09:48:43,202 INFO  [stdout] (default task-24)         count(simpleenti0_.id) as col_0_0_ 
+2016-03-11 09:48:43,202 INFO  [stdout] (default task-24)     from
+2016-03-11 09:48:43,203 INFO  [stdout] (default task-24)         SimpleEntity simpleenti0_ 
+2016-03-11 09:48:43,203 INFO  [stdout] (default task-24)     where
+2016-03-11 09:48:43,203 INFO  [stdout] (default task-24)         lower(simpleenti0_.simple) like ?
+2016-03-11 09:48:43,227 INFO  [stdout] (default task-24) Hibernate: 
+2016-03-11 09:48:43,227 INFO  [stdout] (default task-24)     select
+2016-03-11 09:48:43,227 INFO  [stdout] (default task-24)         simpleenti0_.id as id1_0_,
+2016-03-11 09:48:43,227 INFO  [stdout] (default task-24)         simpleenti0_.simple as simple2_0_,
+2016-03-11 09:48:43,227 INFO  [stdout] (default task-24)         simpleenti0_.version as version3_0_ 
+2016-03-11 09:48:43,227 INFO  [stdout] (default task-24)     from
+2016-03-11 09:48:43,227 INFO  [stdout] (default task-24)         SimpleEntity simpleenti0_ 
+2016-03-11 09:48:43,229 INFO  [stdout] (default task-24)     where
+2016-03-11 09:48:43,229 INFO  [stdout] (default task-24)         lower(simpleenti0_.simple) like ? limit ?
+2016-03-11 09:48:46,438 INFO  [stdout] (default task-25) Hibernate: 
+2016-03-11 09:48:46,439 INFO  [stdout] (default task-25)     select
+2016-03-11 09:48:46,439 INFO  [stdout] (default task-25)         count(simpleenti0_.id) as col_0_0_ 
+2016-03-11 09:48:46,439 INFO  [stdout] (default task-25)     from
+2016-03-11 09:48:46,439 INFO  [stdout] (default task-25)         SimpleEntity simpleenti0_ 
+2016-03-11 09:48:46,439 INFO  [stdout] (default task-25)     where
+2016-03-11 09:48:46,440 INFO  [stdout] (default task-25)         lower(simpleenti0_.simple) like ?
+2016-03-11 09:48:46,443 INFO  [stdout] (default task-25) Hibernate: 
+2016-03-11 09:48:46,443 INFO  [stdout] (default task-25)     select
+2016-03-11 09:48:46,443 INFO  [stdout] (default task-25)         simpleenti0_.id as id1_0_,
+2016-03-11 09:48:46,443 INFO  [stdout] (default task-25)         simpleenti0_.simple as simple2_0_,
+2016-03-11 09:48:46,443 INFO  [stdout] (default task-25)         simpleenti0_.version as version3_0_ 
+2016-03-11 09:48:46,443 INFO  [stdout] (default task-25)     from
+2016-03-11 09:48:46,443 INFO  [stdout] (default task-25)         SimpleEntity simpleenti0_ 
+2016-03-11 09:48:46,443 INFO  [stdout] (default task-25)     where
+2016-03-11 09:48:46,443 INFO  [stdout] (default task-25)         lower(simpleenti0_.simple) like ? limit ?
+2016-03-11 10:12:05,794 INFO  [stdout] (default task-27) Hibernate: 
+2016-03-11 10:12:05,795 INFO  [stdout] (default task-27)     select
+2016-03-11 10:12:05,795 INFO  [stdout] (default task-27)         count(simpleenti0_.id) as col_0_0_ 
+2016-03-11 10:12:05,795 INFO  [stdout] (default task-27)     from
+2016-03-11 10:12:05,795 INFO  [stdout] (default task-27)         SimpleEntity simpleenti0_ 
+2016-03-11 10:12:05,795 INFO  [stdout] (default task-27)     where
+2016-03-11 10:12:05,795 INFO  [stdout] (default task-27)         1=1
+2016-03-11 10:12:05,797 INFO  [stdout] (default task-27) Hibernate: 
+2016-03-11 10:12:05,797 INFO  [stdout] (default task-27)     select
+2016-03-11 10:12:05,797 INFO  [stdout] (default task-27)         simpleenti0_.id as id1_0_,
+2016-03-11 10:12:05,797 INFO  [stdout] (default task-27)         simpleenti0_.simple as simple2_0_,
+2016-03-11 10:12:05,797 INFO  [stdout] (default task-27)         simpleenti0_.version as version3_0_ 
+2016-03-11 10:12:05,797 INFO  [stdout] (default task-27)     from
+2016-03-11 10:12:05,797 INFO  [stdout] (default task-27)         SimpleEntity simpleenti0_ 
+2016-03-11 10:12:05,797 INFO  [stdout] (default task-27)     where
+2016-03-11 10:12:05,797 INFO  [stdout] (default task-27)         1=1 limit ?
+2016-03-11 11:27:00,842 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017535: Unregistered web context: /simpleproject
+2016-03-11 11:27:00,913 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017532: Host default-host stopping
+2016-03-11 11:27:00,923 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 61) JBAS011410: Stopping Persistence Unit (phase 2 of 2) Service 'simpleproject.war#simpleproject-persistence-unit'
+2016-03-11 11:27:00,924 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 61) HHH000227: Running hbm2ddl schema export
+2016-03-11 11:27:00,957 INFO  [stdout] (ServerService Thread Pool -- 61) Hibernate: 
+2016-03-11 11:27:00,969 INFO  [stdout] (ServerService Thread Pool -- 61)     drop table SimpleEntity if exists
+2016-03-11 11:27:00,979 INFO  [stdout] (ServerService Thread Pool -- 61) Hibernate: 
+2016-03-11 11:27:00,979 INFO  [stdout] (ServerService Thread Pool -- 61)     drop sequence hibernate_sequence
+2016-03-11 11:27:00,982 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 61) HHH000230: Schema export complete
+2016-03-11 11:27:01,000 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016009: Stopping weld service for deployment simpleproject.war
+2016-03-11 11:27:01,036 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017521: Undertow HTTP listener default suspending
+2016-03-11 11:27:01,038 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 61) JBAS011410: Stopping Persistence Unit (phase 1 of 2) Service 'simpleproject.war#simpleproject-persistence-unit'
+2016-03-11 11:27:01,040 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017520: Undertow HTTP listener default stopped, was bound to /127.0.0.1:8080
+2016-03-11 11:27:01,048 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017506: Undertow 1.0.15.Final stopping
+2016-03-11 11:27:01,044 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+2016-03-11 11:27:01,110 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment simpleproject.war (runtime-name: simpleproject.war) in 299ms
+2016-03-11 11:27:01,114 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010418: Stopped Driver service with driver-name = h2
+2016-03-11 11:27:01,198 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015950: WildFly 8.1.0.Final "Kenny" stopped in 387ms

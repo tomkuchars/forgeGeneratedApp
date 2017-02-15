@@ -1,0 +1,608 @@
+2017-02-15 11:19:51,147 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2017-02-15 11:19:54,712 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2017-02-15 11:19:55,015 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015899: WildFly 8.1.0.Final "Kenny" starting
+2017-02-15 11:19:55,029 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1250
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\tkucharski\Desktop\simpleproject\.wildfly\jboss-modules.jar
+	java.class.version = 51.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.7.0_79\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.7.0_79\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.7.0_79\jre
+	java.io.tmpdir = C:\Users\TKUCHA~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Program Files\Java\jdk1.7.0_79\bin";C:\Program Files\Java\jdk1.7.0_79\bin;C:\Oracle\instantclient_11_2;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\PROGRA~2\Groovy\GROOVY~1.3\bin;C:\apache-maven-3.0.5\bin;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\nodejs\;C:\Program Files (x86)\scala\bin;C:\Program Files (x86)\sbt\\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Users\tkucharski\bin\Sencha\Cmd;C:\Program Files (x86)\WinAnt\bin;C:\Users\tkucharski\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.7.0_79-b15
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.7.0_79
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 24.79-b02
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address.management = 127.0.0.1
+	jboss.home.dir = C:\Users\tkucharski\Desktop\simpleproject\.wildfly
+	jboss.host.name = pctkucharski
+	jboss.management.http.port = 9990
+	jboss.modules.dir = C:\Users\tkucharski\Desktop\simpleproject\.wildfly\modules
+	jboss.node.name = pctkucharski
+	jboss.qualified.host.name = pctkucharski
+	jboss.server.base.dir = C:\Users\tkucharski\Desktop\simpleproject\.wildfly\standalone
+	jboss.server.config.dir = C:\Users\tkucharski\Desktop\simpleproject\.wildfly\standalone\configuration
+	jboss.server.data.dir = C:\Users\tkucharski\Desktop\simpleproject\.wildfly\standalone\data
+	jboss.server.deploy.dir = C:\Users\tkucharski\Desktop\simpleproject\.wildfly\standalone\data\content
+	jboss.server.log.dir = C:\Users\tkucharski\Desktop\simpleproject\.wildfly\standalone\log
+	jboss.server.name = pctkucharski
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\tkucharski\Desktop\simpleproject\.wildfly\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\tkucharski\Desktop\simpleproject\.wildfly/standalone/configuration/logging.properties
+	module.path = C:\Users\tkucharski\Desktop\simpleproject\.wildfly\modules
+	org.jboss.boot.log.file = C:\Users\tkucharski\Desktop\simpleproject\.wildfly/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 8.1
+	os.version = 6.3
+	path.separator = ;
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.7.0_79\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_79\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.7.0_79\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\tkucharski\Desktop\simpleproject\.wildfly\jboss-modules.jar -mp C:\Users\tkucharski\Desktop\simpleproject\.wildfly\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\tkucharski\Desktop\simpleproject\.wildfly -Djboss.bind.address.management=127.0.0.1 -Djboss.management.http.port=9990
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1250
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = PL
+	user.dir = C:\Users\tkucharski\Desktop\forge\forge-distribution-2.20.2.Final\bin
+	user.home = C:\Users\tkucharski
+	user.language = pl
+	user.name = tkucharski
+	user.script = 
+	user.timezone = Europe/Belgrade
+	user.variant = 
+2017-02-15 11:19:55,035 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Xms64m -Xmx512m -XX:MaxPermSize=256m -Djava.net.preferIPv4Stack=true -Dorg.jboss.boot.log.file=C:\Users\tkucharski\Desktop\simpleproject\.wildfly/standalone/log/server.log -Dlogging.configuration=file:C:\Users\tkucharski\Desktop\simpleproject\.wildfly/standalone/configuration/logging.properties 
+2017-02-15 11:19:56,037 INFO  [org.jboss.vfs] (MSC service thread 1-1) VFS000002: Failed to clean existing content for temp file provider of type temp. Enable DEBUG level log to find what caused this
+2017-02-15 11:20:04,177 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2017-02-15 11:20:04,230 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.2.2.Final
+2017-02-15 11:20:04,253 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.2.2.Final
+2017-02-15 11:20:04,342 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2017-02-15 11:20:04,354 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2017-02-15 11:20:04,325 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2017-02-15 11:20:04,327 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2017-02-15 11:20:04,397 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2017-02-15 11:20:04,414 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 4 core threads with 32 task threads based on your 2 available processors
+2017-02-15 11:20:04,552 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2017-02-15 11:20:04,565 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.0.15.Final starting
+2017-02-15 11:20:04,577 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017502: Undertow 1.0.15.Final starting
+2017-02-15 11:20:04,646 INFO  [org.jboss.as.security] (MSC service thread 1-4) JBAS013170: Current PicketBox version=4.0.21.Beta1
+2017-02-15 11:20:04,866 INFO  [org.jboss.as.naming] (MSC service thread 1-4) JBAS011802: Starting Naming Service
+2017-02-15 11:20:04,868 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-4) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.5.Final)
+2017-02-15 11:20:05,087 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2017-02-15 11:20:05,224 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-02-15 11:20:05,304 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010417: Started Driver service with driver-name = h2
+2017-02-15 11:20:05,858 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.3.Final
+2017-02-15 11:20:05,985 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path C:\Users\tkucharski\Desktop\simpleproject\.wildfly/welcome-content
+2017-02-15 11:20:06,068 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017525: Started server default-server.
+2017-02-15 11:20:06,100 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017531: Host default-host starting
+2017-02-15 11:20:06,243 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017519: Undertow HTTP listener default listening on /127.0.0.1:8080
+2017-02-15 11:20:06,649 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2017-02-15 11:20:06,777 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) JBAS015012: Started FileSystemDeploymentService for directory C:\Users\tkucharski\Desktop\simpleproject\.wildfly\standalone\deployments
+2017-02-15 11:20:07,873 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.2.4.Final
+2017-02-15 11:20:08,008 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2017-02-15 11:20:08,010 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2017-02-15 11:20:08,010 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.1.0.Final "Kenny" started in 18286ms - Started 184 of 233 services (81 services are lazy, passive or on-demand)
+2017-02-15 11:25:42,762 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "simpleproject.war" (runtime-name: "simpleproject.war")
+2017-02-15 11:25:43,808 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) JBAS011401: Read persistence.xml for simpleproject-persistence-unit
+2017-02-15 11:25:44,221 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 50) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'simpleproject.war#simpleproject-persistence-unit'
+2017-02-15 11:25:44,245 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 50) HHH000204: Processing PersistenceUnitInfo [
+	name: simpleproject-persistence-unit
+	...]
+2017-02-15 11:25:44,411 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 50) HHH000412: Hibernate Core {4.3.5.Final}
+2017-02-15 11:25:44,416 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 50) HHH000206: hibernate.properties not found
+2017-02-15 11:25:44,420 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 50) HHH000021: Bytecode provider name : javassist
+2017-02-15 11:25:44,969 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016002: Processing weld deployment simpleproject.war
+2017-02-15 11:25:45,259 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-4) HV000001: Hibernate Validator 5.1.0.Final
+2017-02-15 11:25:45,448 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named SimpleEntityBean in deployment unit deployment "simpleproject.war" are as follows:
+
+	java:global/simpleproject/SimpleEntityBean!org.simpleproject.view.SimpleEntityBean
+	java:app/simpleproject/SimpleEntityBean!org.simpleproject.view.SimpleEntityBean
+	java:module/SimpleEntityBean!org.simpleproject.view.SimpleEntityBean
+	java:global/simpleproject/SimpleEntityBean
+	java:app/simpleproject/SimpleEntityBean
+	java:module/SimpleEntityBean
+
+2017-02-15 11:25:46,294 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016005: Starting Services for CDI deployment: simpleproject.war
+2017-02-15 11:25:46,380 INFO  [org.jboss.weld.Version] (MSC service thread 1-4) WELD-000900: 2.1.2 (Final)
+2017-02-15 11:25:46,453 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016008: Starting weld service for deployment simpleproject.war
+2017-02-15 11:25:46,818 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 50) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'simpleproject.war#simpleproject-persistence-unit'
+2017-02-15 11:25:46,824 WARN  [org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl] (ServerService Thread Pool -- 50) HHH000059: Defining hibernate.transaction.flush_before_completion=true ignored in HEM
+2017-02-15 11:25:47,022 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 50) HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2017-02-15 11:25:47,453 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 50) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-02-15 11:25:47,471 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 50) HHH000431: Unable to determine H2 database version, certain features may not work
+2017-02-15 11:25:47,687 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 50) HHH000397: Using ASTQueryTranslatorFactory
+2017-02-15 11:25:48,386 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 50) HHH000227: Running hbm2ddl schema export
+2017-02-15 11:25:48,398 INFO  [stdout] (ServerService Thread Pool -- 50) Hibernate: 
+2017-02-15 11:25:48,400 INFO  [stdout] (ServerService Thread Pool -- 50)     drop table SimpleEntity if exists
+2017-02-15 11:25:48,401 INFO  [stdout] (ServerService Thread Pool -- 50) Hibernate: 
+2017-02-15 11:25:48,403 INFO  [stdout] (ServerService Thread Pool -- 50)     drop sequence hibernate_sequence
+2017-02-15 11:25:48,405 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 50) HHH000389: Unsuccessful: drop sequence hibernate_sequence
+2017-02-15 11:25:48,410 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 50) Sekwencja "HIBERNATE_SEQUENCE" nie istnieje
+Sequence "HIBERNATE_SEQUENCE" not found; SQL statement:
+
+    drop sequence hibernate_sequence [90036-173]
+2017-02-15 11:25:48,411 INFO  [stdout] (ServerService Thread Pool -- 50) Hibernate: 
+2017-02-15 11:25:48,412 INFO  [stdout] (ServerService Thread Pool -- 50)     create table SimpleEntity (
+2017-02-15 11:25:48,412 INFO  [stdout] (ServerService Thread Pool -- 50)         id bigint not null,
+2017-02-15 11:25:48,412 INFO  [stdout] (ServerService Thread Pool -- 50)         anotherString varchar(255),
+2017-02-15 11:25:48,413 INFO  [stdout] (ServerService Thread Pool -- 50)         name varchar(255),
+2017-02-15 11:25:48,413 INFO  [stdout] (ServerService Thread Pool -- 50)         simpleString varchar(255),
+2017-02-15 11:25:48,414 INFO  [stdout] (ServerService Thread Pool -- 50)         version integer,
+2017-02-15 11:25:48,415 INFO  [stdout] (ServerService Thread Pool -- 50)         primary key (id)
+2017-02-15 11:25:48,415 INFO  [stdout] (ServerService Thread Pool -- 50)     )
+2017-02-15 11:25:48,419 INFO  [stdout] (ServerService Thread Pool -- 50) Hibernate: 
+2017-02-15 11:25:48,419 INFO  [stdout] (ServerService Thread Pool -- 50)     create sequence hibernate_sequence start with 1 increment by 1
+2017-02-15 11:25:48,424 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 50) HHH000230: Schema export complete
+2017-02-15 11:25:49,911 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-3) Initializing Mojarra 2.2.6-jbossorg-4 20140501-1134 for context '/simpleproject'
+2017-02-15 11:25:51,483 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017534: Registered web context: /simpleproject
+2017-02-15 11:25:51,621 INFO  [org.jboss.as.server] (management-handler-thread - 4) JBAS018559: Deployed "simpleproject.war" (runtime-name : "simpleproject.war")
+2017-02-15 11:34:09,255 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017535: Unregistered web context: /simpleproject
+2017-02-15 11:34:09,288 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017532: Host default-host stopping
+2017-02-15 11:34:09,307 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 57) JBAS011410: Stopping Persistence Unit (phase 2 of 2) Service 'simpleproject.war#simpleproject-persistence-unit'
+2017-02-15 11:34:09,308 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 57) HHH000227: Running hbm2ddl schema export
+2017-02-15 11:34:09,318 INFO  [stdout] (ServerService Thread Pool -- 57) Hibernate: 
+2017-02-15 11:34:09,319 INFO  [stdout] (ServerService Thread Pool -- 57)     drop table SimpleEntity if exists
+2017-02-15 11:34:09,324 INFO  [stdout] (ServerService Thread Pool -- 57) Hibernate: 
+2017-02-15 11:34:09,324 INFO  [stdout] (ServerService Thread Pool -- 57)     drop sequence hibernate_sequence
+2017-02-15 11:34:09,327 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 57) HHH000230: Schema export complete
+2017-02-15 11:34:09,331 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016009: Stopping weld service for deployment simpleproject.war
+2017-02-15 11:34:09,365 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 57) JBAS011410: Stopping Persistence Unit (phase 1 of 2) Service 'simpleproject.war#simpleproject-persistence-unit'
+2017-02-15 11:34:09,368 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017521: Undertow HTTP listener default suspending
+2017-02-15 11:34:09,370 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017520: Undertow HTTP listener default stopped, was bound to /127.0.0.1:8080
+2017-02-15 11:34:09,372 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+2017-02-15 11:34:09,380 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017506: Undertow 1.0.15.Final stopping
+2017-02-15 11:34:09,391 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010418: Stopped Driver service with driver-name = h2
+2017-02-15 11:34:09,602 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment simpleproject.war (runtime-name: simpleproject.war) in 382ms
+2017-02-15 11:34:09,621 INFO  [org.jboss.as] (MSC service thread 1-3) JBAS015950: WildFly 8.1.0.Final "Kenny" stopped in 400ms
+2017-02-15 11:53:01,280 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2017-02-15 11:53:02,402 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2017-02-15 11:53:02,637 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015899: WildFly 8.1.0.Final "Kenny" starting
+2017-02-15 11:53:02,649 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1250
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\tkucharski\Desktop\simpleproject\.wildfly\jboss-modules.jar
+	java.class.version = 51.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.7.0_79\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.7.0_79\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.7.0_79\jre
+	java.io.tmpdir = C:\Users\TKUCHA~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Program Files\Java\jdk1.7.0_79\bin";C:\Program Files\Java\jdk1.7.0_79\bin;C:\Oracle\instantclient_11_2;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\PROGRA~2\Groovy\GROOVY~1.3\bin;C:\apache-maven-3.0.5\bin;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\nodejs\;C:\Program Files (x86)\scala\bin;C:\Program Files (x86)\sbt\\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Users\tkucharski\bin\Sencha\Cmd;C:\Program Files (x86)\WinAnt\bin;C:\Users\tkucharski\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.7.0_79-b15
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.7.0_79
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 24.79-b02
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address.management = 127.0.0.1
+	jboss.home.dir = C:\Users\tkucharski\Desktop\simpleproject\.wildfly
+	jboss.host.name = pctkucharski
+	jboss.management.http.port = 9990
+	jboss.modules.dir = C:\Users\tkucharski\Desktop\simpleproject\.wildfly\modules
+	jboss.node.name = pctkucharski
+	jboss.qualified.host.name = pctkucharski
+	jboss.server.base.dir = C:\Users\tkucharski\Desktop\simpleproject\.wildfly\standalone
+	jboss.server.config.dir = C:\Users\tkucharski\Desktop\simpleproject\.wildfly\standalone\configuration
+	jboss.server.data.dir = C:\Users\tkucharski\Desktop\simpleproject\.wildfly\standalone\data
+	jboss.server.deploy.dir = C:\Users\tkucharski\Desktop\simpleproject\.wildfly\standalone\data\content
+	jboss.server.log.dir = C:\Users\tkucharski\Desktop\simpleproject\.wildfly\standalone\log
+	jboss.server.name = pctkucharski
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\tkucharski\Desktop\simpleproject\.wildfly\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\tkucharski\Desktop\simpleproject\.wildfly/standalone/configuration/logging.properties
+	module.path = C:\Users\tkucharski\Desktop\simpleproject\.wildfly\modules
+	org.jboss.boot.log.file = C:\Users\tkucharski\Desktop\simpleproject\.wildfly/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 8.1
+	os.version = 6.3
+	path.separator = ;
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.7.0_79\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_79\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.7.0_79\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\tkucharski\Desktop\simpleproject\.wildfly\jboss-modules.jar -mp C:\Users\tkucharski\Desktop\simpleproject\.wildfly\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\tkucharski\Desktop\simpleproject\.wildfly -Djboss.bind.address.management=127.0.0.1 -Djboss.management.http.port=9990
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1250
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = PL
+	user.dir = C:\Users\tkucharski\Desktop\forge\forge-distribution-2.20.2.Final\bin
+	user.home = C:\Users\tkucharski
+	user.language = pl
+	user.name = tkucharski
+	user.script = 
+	user.timezone = Europe/Belgrade
+	user.variant = 
+2017-02-15 11:53:02,653 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Xms64m -Xmx512m -XX:MaxPermSize=256m -Djava.net.preferIPv4Stack=true -Dorg.jboss.boot.log.file=C:\Users\tkucharski\Desktop\simpleproject\.wildfly/standalone/log/server.log -Dlogging.configuration=file:C:\Users\tkucharski\Desktop\simpleproject\.wildfly/standalone/configuration/logging.properties 
+2017-02-15 11:53:02,791 INFO  [org.jboss.vfs] (MSC service thread 1-1) VFS000002: Failed to clean existing content for temp file provider of type temp. Enable DEBUG level log to find what caused this
+2017-02-15 11:53:05,619 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2017-02-15 11:53:05,668 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.2.2.Final
+2017-02-15 11:53:05,689 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.2.2.Final
+2017-02-15 11:53:05,879 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2017-02-15 11:53:05,918 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2017-02-15 11:53:05,944 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2017-02-15 11:53:05,955 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.0.15.Final starting
+2017-02-15 11:53:06,002 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 4.0.3.Final
+2017-02-15 11:53:05,970 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017502: Undertow 1.0.15.Final starting
+2017-02-15 11:53:05,911 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2017-02-15 11:53:05,890 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2017-02-15 11:53:05,884 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2017-02-15 11:53:06,224 INFO  [org.jboss.as.security] (MSC service thread 1-4) JBAS013170: Current PicketBox version=4.0.21.Beta1
+2017-02-15 11:53:06,379 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path C:\Users\tkucharski\Desktop\simpleproject\.wildfly/welcome-content
+2017-02-15 11:53:06,402 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-02-15 11:53:06,479 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-2) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.5.Final)
+2017-02-15 11:53:06,487 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 4 core threads with 32 task threads based on your 2 available processors
+2017-02-15 11:53:06,537 INFO  [org.jboss.as.naming] (MSC service thread 1-2) JBAS011802: Starting Naming Service
+2017-02-15 11:53:06,551 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2017-02-15 11:53:06,570 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010417: Started Driver service with driver-name = h2
+2017-02-15 11:53:06,712 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017525: Started server default-server.
+2017-02-15 11:53:06,737 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017531: Host default-host starting
+2017-02-15 11:53:07,435 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017519: Undertow HTTP listener default listening on /127.0.0.1:8080
+2017-02-15 11:53:08,191 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015876: Starting deployment of "simpleproject.war" (runtime-name: "simpleproject.war")
+2017-02-15 11:53:08,272 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) JBAS015012: Started FileSystemDeploymentService for directory C:\Users\tkucharski\Desktop\simpleproject\.wildfly\standalone\deployments
+2017-02-15 11:53:08,787 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2017-02-15 11:53:09,142 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.2.4.Final
+2017-02-15 11:53:10,138 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) JBAS011401: Read persistence.xml for simpleproject-persistence-unit
+2017-02-15 11:53:10,285 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 50) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'simpleproject.war#simpleproject-persistence-unit'
+2017-02-15 11:53:10,306 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 50) HHH000204: Processing PersistenceUnitInfo [
+	name: simpleproject-persistence-unit
+	...]
+2017-02-15 11:53:10,445 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 50) HHH000412: Hibernate Core {4.3.5.Final}
+2017-02-15 11:53:10,451 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 50) HHH000206: hibernate.properties not found
+2017-02-15 11:53:10,456 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 50) HHH000021: Bytecode provider name : javassist
+2017-02-15 11:53:10,763 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016002: Processing weld deployment simpleproject.war
+2017-02-15 11:53:10,902 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-3) HV000001: Hibernate Validator 5.1.0.Final
+2017-02-15 11:53:11,100 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-3) JNDI bindings for session bean named SimpleEntityBean in deployment unit deployment "simpleproject.war" are as follows:
+
+	java:global/simpleproject/SimpleEntityBean!org.simpleproject.view.SimpleEntityBean
+	java:app/simpleproject/SimpleEntityBean!org.simpleproject.view.SimpleEntityBean
+	java:module/SimpleEntityBean!org.simpleproject.view.SimpleEntityBean
+	java:global/simpleproject/SimpleEntityBean
+	java:app/simpleproject/SimpleEntityBean
+	java:module/SimpleEntityBean
+
+2017-02-15 11:53:11,442 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016005: Starting Services for CDI deployment: simpleproject.war
+2017-02-15 11:53:11,506 INFO  [org.jboss.weld.Version] (MSC service thread 1-3) WELD-000900: 2.1.2 (Final)
+2017-02-15 11:53:11,577 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016008: Starting weld service for deployment simpleproject.war
+2017-02-15 11:53:12,508 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 50) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'simpleproject.war#simpleproject-persistence-unit'
+2017-02-15 11:53:12,518 WARN  [org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl] (ServerService Thread Pool -- 50) HHH000059: Defining hibernate.transaction.flush_before_completion=true ignored in HEM
+2017-02-15 11:53:12,672 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 50) HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2017-02-15 11:53:13,071 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 50) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-02-15 11:53:13,091 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 50) HHH000431: Unable to determine H2 database version, certain features may not work
+2017-02-15 11:53:13,294 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 50) HHH000397: Using ASTQueryTranslatorFactory
+2017-02-15 11:53:13,903 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 50) HHH000227: Running hbm2ddl schema export
+2017-02-15 11:53:13,919 INFO  [stdout] (ServerService Thread Pool -- 50) Hibernate: 
+2017-02-15 11:53:13,921 INFO  [stdout] (ServerService Thread Pool -- 50)     drop table SimpleEntity if exists
+2017-02-15 11:53:13,923 INFO  [stdout] (ServerService Thread Pool -- 50) Hibernate: 
+2017-02-15 11:53:13,924 INFO  [stdout] (ServerService Thread Pool -- 50)     drop sequence hibernate_sequence
+2017-02-15 11:53:13,930 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 50) HHH000389: Unsuccessful: drop sequence hibernate_sequence
+2017-02-15 11:53:13,931 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 50) Sekwencja "HIBERNATE_SEQUENCE" nie istnieje
+Sequence "HIBERNATE_SEQUENCE" not found; SQL statement:
+
+    drop sequence hibernate_sequence [90036-173]
+2017-02-15 11:53:13,933 INFO  [stdout] (ServerService Thread Pool -- 50) Hibernate: 
+2017-02-15 11:53:13,934 INFO  [stdout] (ServerService Thread Pool -- 50)     create table SimpleEntity (
+2017-02-15 11:53:13,935 INFO  [stdout] (ServerService Thread Pool -- 50)         id bigint not null,
+2017-02-15 11:53:13,935 INFO  [stdout] (ServerService Thread Pool -- 50)         anotherString varchar(255),
+2017-02-15 11:53:13,936 INFO  [stdout] (ServerService Thread Pool -- 50)         name varchar(255),
+2017-02-15 11:53:13,950 INFO  [stdout] (ServerService Thread Pool -- 50)         simpleString varchar(255),
+2017-02-15 11:53:13,950 INFO  [stdout] (ServerService Thread Pool -- 50)         version integer,
+2017-02-15 11:53:13,951 INFO  [stdout] (ServerService Thread Pool -- 50)         primary key (id)
+2017-02-15 11:53:13,951 INFO  [stdout] (ServerService Thread Pool -- 50)     )
+2017-02-15 11:53:13,955 INFO  [stdout] (ServerService Thread Pool -- 50) Hibernate: 
+2017-02-15 11:53:13,956 INFO  [stdout] (ServerService Thread Pool -- 50)     create sequence hibernate_sequence start with 1 increment by 1
+2017-02-15 11:53:13,968 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 50) HHH000230: Schema export complete
+2017-02-15 11:53:15,505 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-2) Initializing Mojarra 2.2.6-jbossorg-4 20140501-1134 for context '/simpleproject'
+2017-02-15 11:53:17,244 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017534: Registered web context: /simpleproject
+2017-02-15 11:53:17,324 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS018559: Deployed "simpleproject.war" (runtime-name : "simpleproject.war")
+2017-02-15 11:53:17,377 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2017-02-15 11:53:17,378 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2017-02-15 11:53:17,379 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.1.0.Final "Kenny" started in 17097ms - Started 298 of 348 services (91 services are lazy, passive or on-demand)
+2017-02-15 11:53:42,299 INFO  [stdout] (default task-3) Hibernate: 
+2017-02-15 11:53:42,299 INFO  [stdout] (default task-3)     select
+2017-02-15 11:53:42,300 INFO  [stdout] (default task-3)         count(simpleenti0_.id) as col_0_0_ 
+2017-02-15 11:53:42,300 INFO  [stdout] (default task-3)     from
+2017-02-15 11:53:42,300 INFO  [stdout] (default task-3)         SimpleEntity simpleenti0_ 
+2017-02-15 11:53:42,300 INFO  [stdout] (default task-3)     where
+2017-02-15 11:53:42,301 INFO  [stdout] (default task-3)         1=1
+2017-02-15 11:53:42,370 INFO  [stdout] (default task-3) Hibernate: 
+2017-02-15 11:53:42,370 INFO  [stdout] (default task-3)     select
+2017-02-15 11:53:42,371 INFO  [stdout] (default task-3)         simpleenti0_.id as id1_0_,
+2017-02-15 11:53:42,371 INFO  [stdout] (default task-3)         simpleenti0_.anotherString as anotherS2_0_,
+2017-02-15 11:53:42,371 INFO  [stdout] (default task-3)         simpleenti0_.name as name3_0_,
+2017-02-15 11:53:42,371 INFO  [stdout] (default task-3)         simpleenti0_.simpleString as simpleSt4_0_,
+2017-02-15 11:53:42,371 INFO  [stdout] (default task-3)         simpleenti0_.version as version5_0_ 
+2017-02-15 11:53:42,371 INFO  [stdout] (default task-3)     from
+2017-02-15 11:53:42,371 INFO  [stdout] (default task-3)         SimpleEntity simpleenti0_ 
+2017-02-15 11:53:42,372 INFO  [stdout] (default task-3)     where
+2017-02-15 11:53:42,372 INFO  [stdout] (default task-3)         1=1 limit ?
+2017-02-15 11:54:05,215 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017535: Unregistered web context: /simpleproject
+2017-02-15 11:54:05,244 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) JBAS011410: Stopping Persistence Unit (phase 2 of 2) Service 'simpleproject.war#simpleproject-persistence-unit'
+2017-02-15 11:54:05,245 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 58) HHH000227: Running hbm2ddl schema export
+2017-02-15 11:54:05,250 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: 
+2017-02-15 11:54:05,250 INFO  [stdout] (ServerService Thread Pool -- 58)     drop table SimpleEntity if exists
+2017-02-15 11:54:05,264 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: 
+2017-02-15 11:54:05,264 INFO  [stdout] (ServerService Thread Pool -- 58)     drop sequence hibernate_sequence
+2017-02-15 11:54:05,265 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 58) HHH000230: Schema export complete
+2017-02-15 11:54:05,270 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016009: Stopping weld service for deployment simpleproject.war
+2017-02-15 11:54:05,306 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) JBAS011410: Stopping Persistence Unit (phase 1 of 2) Service 'simpleproject.war#simpleproject-persistence-unit'
+2017-02-15 11:54:05,503 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment simpleproject.war (runtime-name: simpleproject.war) in 297ms
+2017-02-15 11:54:05,630 INFO  [org.jboss.as.repository] (management-handler-thread - 4) JBAS014901: Content removed from location C:\Users\tkucharski\Desktop\simpleproject\.wildfly\standalone\data\content\98\647bcad1e24427379d8849d3e307b8ef46692a\content
+2017-02-15 11:54:05,631 INFO  [org.jboss.as.server] (management-handler-thread - 4) JBAS018558: Undeployed "simpleproject.war" (runtime-name: "simpleproject.war")
+2017-02-15 11:54:29,158 INFO  [org.jboss.as.repository] (management-handler-thread - 4) JBAS014900: Content added at location C:\Users\tkucharski\Desktop\simpleproject\.wildfly\standalone\data\content\51\1a9b637d7d6fcc073f8b59015460beef318fac\content
+2017-02-15 11:54:29,171 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "simpleproject.war" (runtime-name: "simpleproject.war")
+2017-02-15 11:54:29,601 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) JBAS011401: Read persistence.xml for simpleproject-persistence-unit
+2017-02-15 11:54:29,667 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 60) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'simpleproject.war#simpleproject-persistence-unit'
+2017-02-15 11:54:29,668 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 60) HHH000204: Processing PersistenceUnitInfo [
+	name: simpleproject-persistence-unit
+	...]
+2017-02-15 11:54:29,737 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016002: Processing weld deployment simpleproject.war
+2017-02-15 11:54:29,753 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named SimpleEntityBean in deployment unit deployment "simpleproject.war" are as follows:
+
+	java:global/simpleproject/SimpleEntityBean!org.simpleproject.view.SimpleEntityBean
+	java:app/simpleproject/SimpleEntityBean!org.simpleproject.view.SimpleEntityBean
+	java:module/SimpleEntityBean!org.simpleproject.view.SimpleEntityBean
+	java:global/simpleproject/SimpleEntityBean
+	java:app/simpleproject/SimpleEntityBean
+	java:module/SimpleEntityBean
+
+2017-02-15 11:54:29,840 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016005: Starting Services for CDI deployment: simpleproject.war
+2017-02-15 11:54:29,859 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016008: Starting weld service for deployment simpleproject.war
+2017-02-15 11:54:29,872 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 60) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'simpleproject.war#simpleproject-persistence-unit'
+2017-02-15 11:54:29,873 WARN  [org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl] (ServerService Thread Pool -- 60) HHH000059: Defining hibernate.transaction.flush_before_completion=true ignored in HEM
+2017-02-15 11:54:29,887 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 60) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-02-15 11:54:29,888 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 60) HHH000431: Unable to determine H2 database version, certain features may not work
+2017-02-15 11:54:29,897 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 60) HHH000397: Using ASTQueryTranslatorFactory
+2017-02-15 11:54:29,932 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 60) HHH000227: Running hbm2ddl schema export
+2017-02-15 11:54:29,937 INFO  [stdout] (ServerService Thread Pool -- 60) Hibernate: 
+2017-02-15 11:54:29,937 INFO  [stdout] (ServerService Thread Pool -- 60)     drop table SimpleEntity if exists
+2017-02-15 11:54:29,938 INFO  [stdout] (ServerService Thread Pool -- 60) Hibernate: 
+2017-02-15 11:54:29,938 INFO  [stdout] (ServerService Thread Pool -- 60)     drop sequence hibernate_sequence
+2017-02-15 11:54:29,941 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 60) HHH000389: Unsuccessful: drop sequence hibernate_sequence
+2017-02-15 11:54:29,941 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 60) Sekwencja "HIBERNATE_SEQUENCE" nie istnieje
+Sequence "HIBERNATE_SEQUENCE" not found; SQL statement:
+
+    drop sequence hibernate_sequence [90036-173]
+2017-02-15 11:54:29,942 INFO  [stdout] (ServerService Thread Pool -- 60) Hibernate: 
+2017-02-15 11:54:29,942 INFO  [stdout] (ServerService Thread Pool -- 60)     create table SimpleEntity (
+2017-02-15 11:54:29,943 INFO  [stdout] (ServerService Thread Pool -- 60)         id bigint not null,
+2017-02-15 11:54:29,943 INFO  [stdout] (ServerService Thread Pool -- 60)         anotherString varchar(255),
+2017-02-15 11:54:29,943 INFO  [stdout] (ServerService Thread Pool -- 60)         name varchar(255),
+2017-02-15 11:54:29,943 INFO  [stdout] (ServerService Thread Pool -- 60)         simpleString varchar(255),
+2017-02-15 11:54:29,943 INFO  [stdout] (ServerService Thread Pool -- 60)         version integer,
+2017-02-15 11:54:29,943 INFO  [stdout] (ServerService Thread Pool -- 60)         primary key (id)
+2017-02-15 11:54:29,943 INFO  [stdout] (ServerService Thread Pool -- 60)     )
+2017-02-15 11:54:29,945 INFO  [stdout] (ServerService Thread Pool -- 60) Hibernate: 
+2017-02-15 11:54:29,945 INFO  [stdout] (ServerService Thread Pool -- 60)     create sequence hibernate_sequence start with 1 increment by 1
+2017-02-15 11:54:29,945 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 60) HHH000230: Schema export complete
+2017-02-15 11:54:30,653 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-1) Initializing Mojarra 2.2.6-jbossorg-4 20140501-1134 for context '/simpleproject'
+2017-02-15 11:54:31,460 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017534: Registered web context: /simpleproject
+2017-02-15 11:54:31,528 INFO  [org.jboss.as.server] (management-handler-thread - 4) JBAS018559: Deployed "simpleproject.war" (runtime-name : "simpleproject.war")
+2017-02-15 11:54:37,700 INFO  [stdout] (default task-6) Hibernate: 
+2017-02-15 11:54:37,701 INFO  [stdout] (default task-6)     select
+2017-02-15 11:54:37,701 INFO  [stdout] (default task-6)         count(simpleenti0_.id) as col_0_0_ 
+2017-02-15 11:54:37,701 INFO  [stdout] (default task-6)     from
+2017-02-15 11:54:37,701 INFO  [stdout] (default task-6)         SimpleEntity simpleenti0_ 
+2017-02-15 11:54:37,701 INFO  [stdout] (default task-6)     where
+2017-02-15 11:54:37,701 INFO  [stdout] (default task-6)         1=1
+2017-02-15 11:54:37,719 INFO  [stdout] (default task-6) Hibernate: 
+2017-02-15 11:54:37,719 INFO  [stdout] (default task-6)     select
+2017-02-15 11:54:37,721 INFO  [stdout] (default task-6)         simpleenti0_.id as id1_0_,
+2017-02-15 11:54:37,723 INFO  [stdout] (default task-6)         simpleenti0_.anotherString as anotherS2_0_,
+2017-02-15 11:54:37,732 INFO  [stdout] (default task-6)         simpleenti0_.name as name3_0_,
+2017-02-15 11:54:37,733 INFO  [stdout] (default task-6)         simpleenti0_.simpleString as simpleSt4_0_,
+2017-02-15 11:54:37,735 INFO  [stdout] (default task-6)         simpleenti0_.version as version5_0_ 
+2017-02-15 11:54:37,736 INFO  [stdout] (default task-6)     from
+2017-02-15 11:54:37,737 INFO  [stdout] (default task-6)         SimpleEntity simpleenti0_ 
+2017-02-15 11:54:37,740 INFO  [stdout] (default task-6)     where
+2017-02-15 11:54:37,740 INFO  [stdout] (default task-6)         1=1 limit ?
+2017-02-15 11:54:49,013 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017535: Unregistered web context: /simpleproject
+2017-02-15 11:54:49,035 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 63) JBAS011410: Stopping Persistence Unit (phase 2 of 2) Service 'simpleproject.war#simpleproject-persistence-unit'
+2017-02-15 11:54:49,036 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 63) HHH000227: Running hbm2ddl schema export
+2017-02-15 11:54:49,037 INFO  [stdout] (ServerService Thread Pool -- 63) Hibernate: 
+2017-02-15 11:54:49,037 INFO  [stdout] (ServerService Thread Pool -- 63)     drop table SimpleEntity if exists
+2017-02-15 11:54:49,040 INFO  [stdout] (ServerService Thread Pool -- 63) Hibernate: 
+2017-02-15 11:54:49,040 INFO  [stdout] (ServerService Thread Pool -- 63)     drop sequence hibernate_sequence
+2017-02-15 11:54:49,046 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 63) HHH000230: Schema export complete
+2017-02-15 11:54:49,048 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016009: Stopping weld service for deployment simpleproject.war
+2017-02-15 11:54:49,074 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 63) JBAS011410: Stopping Persistence Unit (phase 1 of 2) Service 'simpleproject.war#simpleproject-persistence-unit'
+2017-02-15 11:54:49,326 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015877: Stopped deployment simpleproject.war (runtime-name: simpleproject.war) in 316ms
+2017-02-15 11:54:49,396 INFO  [org.jboss.as.repository] (management-handler-thread - 1) JBAS014901: Content removed from location C:\Users\tkucharski\Desktop\simpleproject\.wildfly\standalone\data\content\51\1a9b637d7d6fcc073f8b59015460beef318fac\content
+2017-02-15 11:54:49,397 INFO  [org.jboss.as.server] (management-handler-thread - 1) JBAS018558: Undeployed "simpleproject.war" (runtime-name: "simpleproject.war")
+2017-02-15 11:54:55,999 ERROR [org.jboss.remoting.remote.connection] (XNIO-1 I/O-1) JBREM000200: Remote connection failed: java.io.IOException: Nawi¹zane po³¹czenie zosta³o przerwane przez oprogramowanie zainstalowane w komputerze-hoœcie
+2017-02-15 11:54:56,030 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+2017-02-15 11:54:56,047 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017532: Host default-host stopping
+2017-02-15 11:54:56,068 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017521: Undertow HTTP listener default suspending
+2017-02-15 11:54:56,086 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) JBAS010418: Stopped Driver service with driver-name = h2
+2017-02-15 11:54:56,127 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017520: Undertow HTTP listener default stopped, was bound to /127.0.0.1:8080
+2017-02-15 11:54:56,133 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017506: Undertow 1.0.15.Final stopping
+2017-02-15 11:54:56,184 INFO  [org.jboss.as] (MSC service thread 1-4) JBAS015950: WildFly 8.1.0.Final "Kenny" stopped in 158ms
+2017-02-15 12:18:27,375 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2017-02-15 12:18:27,399 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 4.0.3.Final
+2017-02-15 12:18:27,378 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2017-02-15 12:18:27,442 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2017-02-15 12:18:27,370 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2017-02-15 12:18:27,370 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2017-02-15 12:18:27,423 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 4 core threads with 32 task threads based on your 2 available processors
+2017-02-15 12:18:27,488 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.0.15.Final starting
+2017-02-15 12:18:27,495 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017502: Undertow 1.0.15.Final starting
+2017-02-15 12:18:27,567 INFO  [org.jboss.as.security] (MSC service thread 1-2) JBAS013170: Current PicketBox version=4.0.21.Beta1
+2017-02-15 12:18:27,590 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2017-02-15 12:18:27,610 INFO  [org.jboss.as.naming] (MSC service thread 1-1) JBAS011802: Starting Naming Service
+2017-02-15 12:18:27,692 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-1) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.5.Final)
+2017-02-15 12:18:27,848 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-02-15 12:18:27,893 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2017-02-15 12:18:27,905 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010417: Started Driver service with driver-name = h2
+2017-02-15 12:18:28,866 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path C:\simpleproject\.wildfly/welcome-content
+2017-02-15 12:18:28,929 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017525: Started server default-server.
+2017-02-15 12:18:28,942 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017531: Host default-host starting
+2017-02-15 12:18:29,159 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017519: Undertow HTTP listener default listening on /127.0.0.1:8080
+2017-02-15 12:18:29,280 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2017-02-15 12:18:29,411 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) JBAS015012: Started FileSystemDeploymentService for directory C:\simpleproject\.wildfly\standalone\deployments
+2017-02-15 12:18:30,254 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.2.4.Final
+2017-02-15 12:18:30,368 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2017-02-15 12:18:30,369 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2017-02-15 12:18:30,370 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.1.0.Final "Kenny" started in 13439ms - Started 184 of 233 services (81 services are lazy, passive or on-demand)
+2017-02-15 12:18:39,866 INFO  [org.jboss.as.repository] (management-handler-thread - 4) JBAS014900: Content added at location C:\simpleproject\.wildfly\standalone\data\content\51\1a9b637d7d6fcc073f8b59015460beef318fac\content
+2017-02-15 12:18:39,912 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "simpleproject.war" (runtime-name: "simpleproject.war")
+2017-02-15 12:18:40,848 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) JBAS011401: Read persistence.xml for simpleproject-persistence-unit
+2017-02-15 12:18:41,543 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 20) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'simpleproject.war#simpleproject-persistence-unit'
+2017-02-15 12:18:41,574 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 20) HHH000204: Processing PersistenceUnitInfo [
+	name: simpleproject-persistence-unit
+	...]
+2017-02-15 12:18:41,829 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 20) HHH000412: Hibernate Core {4.3.5.Final}
+2017-02-15 12:18:41,840 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 20) HHH000206: hibernate.properties not found
+2017-02-15 12:18:41,845 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 20) HHH000021: Bytecode provider name : javassist
+2017-02-15 12:18:42,292 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016002: Processing weld deployment simpleproject.war
+2017-02-15 12:18:42,671 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-4) HV000001: Hibernate Validator 5.1.0.Final
+2017-02-15 12:18:42,861 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named SimpleEntityBean in deployment unit deployment "simpleproject.war" are as follows:
+
+	java:global/simpleproject/SimpleEntityBean!org.simpleproject.view.SimpleEntityBean
+	java:app/simpleproject/SimpleEntityBean!org.simpleproject.view.SimpleEntityBean
+	java:module/SimpleEntityBean!org.simpleproject.view.SimpleEntityBean
+	java:global/simpleproject/SimpleEntityBean
+	java:app/simpleproject/SimpleEntityBean
+	java:module/SimpleEntityBean
+
+2017-02-15 12:18:43,377 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016005: Starting Services for CDI deployment: simpleproject.war
+2017-02-15 12:18:43,476 INFO  [org.jboss.weld.Version] (MSC service thread 1-2) WELD-000900: 2.1.2 (Final)
+2017-02-15 12:18:43,584 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016008: Starting weld service for deployment simpleproject.war
+2017-02-15 12:18:44,568 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 20) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'simpleproject.war#simpleproject-persistence-unit'
+2017-02-15 12:18:44,573 WARN  [org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl] (ServerService Thread Pool -- 20) HHH000059: Defining hibernate.transaction.flush_before_completion=true ignored in HEM
+2017-02-15 12:18:44,730 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 20) HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2017-02-15 12:18:45,157 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 20) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-02-15 12:18:45,208 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 20) HHH000431: Unable to determine H2 database version, certain features may not work
+2017-02-15 12:18:45,529 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 20) HHH000397: Using ASTQueryTranslatorFactory
+2017-02-15 12:18:46,329 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 20) HHH000227: Running hbm2ddl schema export
+2017-02-15 12:18:46,341 INFO  [stdout] (ServerService Thread Pool -- 20) Hibernate: 
+2017-02-15 12:18:46,341 INFO  [stdout] (ServerService Thread Pool -- 20)     drop table SimpleEntity if exists
+2017-02-15 12:18:46,344 INFO  [stdout] (ServerService Thread Pool -- 20) Hibernate: 
+2017-02-15 12:18:46,347 INFO  [stdout] (ServerService Thread Pool -- 20)     drop sequence hibernate_sequence
+2017-02-15 12:18:46,356 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 20) HHH000389: Unsuccessful: drop sequence hibernate_sequence
+2017-02-15 12:18:46,360 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 20) Sekwencja "HIBERNATE_SEQUENCE" nie istnieje
+Sequence "HIBERNATE_SEQUENCE" not found; SQL statement:
+
+    drop sequence hibernate_sequence [90036-173]
+2017-02-15 12:18:46,376 INFO  [stdout] (ServerService Thread Pool -- 20) Hibernate: 
+2017-02-15 12:18:46,408 INFO  [stdout] (ServerService Thread Pool -- 20)     create table SimpleEntity (
+2017-02-15 12:18:46,408 INFO  [stdout] (ServerService Thread Pool -- 20)         id bigint not null,
+2017-02-15 12:18:46,408 INFO  [stdout] (ServerService Thread Pool -- 20)         anotherString varchar(255),
+2017-02-15 12:18:46,409 INFO  [stdout] (ServerService Thread Pool -- 20)         name varchar(255),
+2017-02-15 12:18:46,409 INFO  [stdout] (ServerService Thread Pool -- 20)         simpleString varchar(255),
+2017-02-15 12:18:46,409 INFO  [stdout] (ServerService Thread Pool -- 20)         version integer,
+2017-02-15 12:18:46,409 INFO  [stdout] (ServerService Thread Pool -- 20)         primary key (id)
+2017-02-15 12:18:46,409 INFO  [stdout] (ServerService Thread Pool -- 20)     )
+2017-02-15 12:18:46,411 INFO  [stdout] (ServerService Thread Pool -- 20) Hibernate: 
+2017-02-15 12:18:46,412 INFO  [stdout] (ServerService Thread Pool -- 20)     create sequence hibernate_sequence start with 1 increment by 1
+2017-02-15 12:18:46,422 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 20) HHH000230: Schema export complete
+2017-02-15 12:18:47,945 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (MSC service thread 1-2) Initializing Mojarra 2.2.6-jbossorg-4 20140501-1134 for context '/simpleproject'
+2017-02-15 12:18:49,772 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017534: Registered web context: /simpleproject
+2017-02-15 12:18:49,894 INFO  [org.jboss.as.server] (management-handler-thread - 4) JBAS018559: Deployed "simpleproject.war" (runtime-name : "simpleproject.war")
+2017-02-15 12:18:58,604 INFO  [stdout] (default task-3) Hibernate: 
+2017-02-15 12:18:58,605 INFO  [stdout] (default task-3)     select
+2017-02-15 12:18:58,605 INFO  [stdout] (default task-3)         count(simpleenti0_.id) as col_0_0_ 
+2017-02-15 12:18:58,605 INFO  [stdout] (default task-3)     from
+2017-02-15 12:18:58,605 INFO  [stdout] (default task-3)         SimpleEntity simpleenti0_ 
+2017-02-15 12:18:58,606 INFO  [stdout] (default task-3)     where
+2017-02-15 12:18:58,606 INFO  [stdout] (default task-3)         1=1
+2017-02-15 12:18:58,676 INFO  [stdout] (default task-3) Hibernate: 
+2017-02-15 12:18:58,677 INFO  [stdout] (default task-3)     select
+2017-02-15 12:18:58,677 INFO  [stdout] (default task-3)         simpleenti0_.id as id1_0_,
+2017-02-15 12:18:58,677 INFO  [stdout] (default task-3)         simpleenti0_.anotherString as anotherS2_0_,
+2017-02-15 12:18:58,677 INFO  [stdout] (default task-3)         simpleenti0_.name as name3_0_,
+2017-02-15 12:18:58,678 INFO  [stdout] (default task-3)         simpleenti0_.simpleString as simpleSt4_0_,
+2017-02-15 12:18:58,678 INFO  [stdout] (default task-3)         simpleenti0_.version as version5_0_ 
+2017-02-15 12:18:58,678 INFO  [stdout] (default task-3)     from
+2017-02-15 12:18:58,679 INFO  [stdout] (default task-3)         SimpleEntity simpleenti0_ 
+2017-02-15 12:18:58,679 INFO  [stdout] (default task-3)     where
+2017-02-15 12:18:58,679 INFO  [stdout] (default task-3)         1=1 limit ?
+2017-02-15 12:19:08,703 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017535: Unregistered web context: /simpleproject
+2017-02-15 12:19:08,732 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 54) JBAS011410: Stopping Persistence Unit (phase 2 of 2) Service 'simpleproject.war#simpleproject-persistence-unit'
+2017-02-15 12:19:08,733 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 54) HHH000227: Running hbm2ddl schema export
+2017-02-15 12:19:08,745 INFO  [stdout] (ServerService Thread Pool -- 54) Hibernate: 
+2017-02-15 12:19:08,745 INFO  [stdout] (ServerService Thread Pool -- 54)     drop table SimpleEntity if exists
+2017-02-15 12:19:08,770 INFO  [stdout] (ServerService Thread Pool -- 54) Hibernate: 
+2017-02-15 12:19:08,770 INFO  [stdout] (ServerService Thread Pool -- 54)     drop sequence hibernate_sequence
+2017-02-15 12:19:08,787 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 54) HHH000230: Schema export complete
+2017-02-15 12:19:08,792 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016009: Stopping weld service for deployment simpleproject.war
+2017-02-15 12:19:08,841 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 54) JBAS011410: Stopping Persistence Unit (phase 1 of 2) Service 'simpleproject.war#simpleproject-persistence-unit'
+2017-02-15 12:19:09,004 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment simpleproject.war (runtime-name: simpleproject.war) in 308ms
+2017-02-15 12:19:09,069 INFO  [org.jboss.as.repository] (management-handler-thread - 4) JBAS014901: Content removed from location C:\simpleproject\.wildfly\standalone\data\content\51\1a9b637d7d6fcc073f8b59015460beef318fac\content
+2017-02-15 12:19:09,070 INFO  [org.jboss.as.server] (management-handler-thread - 4) JBAS018558: Undeployed "simpleproject.war" (runtime-name: "simpleproject.war")
+2017-02-15 12:19:16,411 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+2017-02-15 12:19:16,431 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017532: Host default-host stopping
+2017-02-15 12:19:16,432 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010418: Stopped Driver service with driver-name = h2
+2017-02-15 12:19:16,439 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017521: Undertow HTTP listener default suspending
+2017-02-15 12:19:16,444 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017520: Undertow HTTP listener default stopped, was bound to /127.0.0.1:8080
+2017-02-15 12:19:16,447 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017506: Undertow 1.0.15.Final stopping
+2017-02-15 12:19:16,480 INFO  [org.jboss.as] (MSC service thread 1-4) JBAS015950: WildFly 8.1.0.Final "Kenny" stopped in 66ms

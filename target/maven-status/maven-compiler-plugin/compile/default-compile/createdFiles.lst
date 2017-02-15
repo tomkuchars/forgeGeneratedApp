@@ -1,0 +1,8 @@
+org\simpleproject\beans\StringOne.class
+org\simpleproject\beans\StringGenerator.class
+org\simpleproject\view\SimpleEntityBean.class
+org\simpleproject\view\SimpleEntityBean$1.class
+org\simpleproject\beans\StringSevenGenerator.class
+org\simpleproject\beans\StringOneGenarator.class
+org\simpleproject\view\ViewUtils.class
+org\simpleproject\model\SimpleEntity.class
